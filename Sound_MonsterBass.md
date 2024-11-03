@@ -1,5 +1,5 @@
 # 0 先看这里
-想要达到https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac的效果
+想要达到 https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac 的效果 [](https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac)
 # 1 技术
 **节奏型**：midiNOTE转midiCC
 **信号刺激**：嘴角大鼓带效果
