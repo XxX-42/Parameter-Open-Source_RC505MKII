@@ -1,5 +1,5 @@
 # 0 先看这里
-想要达到 https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac 的效果 [](https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac)
+想要达到 https://www.bilibili.com/video/BV1zYSBYBE8o/?spm_id_from=333.999.0.0&vd_source=e63278eb17ebd272784669bf7804dfac 的效果，需要在第五个轨道录入嘴角大鼓（效果下面有），轨道设置为bmp104，然后参照下面的四个OutputFX效果设置，效果生效轨道为第五轨道。最后一步开启第五轨道的FX选择。
 # 1 技术
 **节奏型**：midiNOTE转midiCC
 **信号刺激**：嘴角大鼓带效果
@@ -13,7 +13,6 @@ INPUT_DYNAMICS_MIC1_NS::80
 ## 2.1 信号刺激
 - **大鼓**lpf+sustanr+dyn
 - **小鼓** EQ + GTEREV + LOFI + WARP
-
 
 ## 2.2 效果器
 - ==四个output效果全部打开==
