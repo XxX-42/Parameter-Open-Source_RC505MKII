@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="FromRC505MKII2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FromRC505MKII2_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FromRC505MKII2.jar">
+        <element id="module-output" name="FromRC505MKII2" />
+      </element>
+    </root>
+  </artifact>
+</component>
