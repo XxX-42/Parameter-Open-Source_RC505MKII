@@ -1,67 +1,76 @@
 # Parameter-Open-Source-RC505MKII_byXxX
-- [x] 初始化本项目的结构 ✅ 2024-11-07
-- [x] 打通无线音色 ✅ 2024-11-09
-- [x] 打通自由控制、自动控制 ✅ 2024-11-09
-- [ ] 如何管理其他人的上传
-- [ ] 本项目的英文版
-- [ ] 第一个演示视频
-# 1 项目简介
-## 1.1 项目的目的：基于学习
-- 10分钟 下载、分享你的参数信息
-- 100分钟 在RC505MKii上实践你的想法
-- 1000分钟 大量听歌，学习相关音乐知识
-## 1.2 项目的记录形式：基于分享
-- **强规范化** 模板格式固定，包括：一份音频信息，一份综合信息，一份midi文档
-- **高扩展性** 软件方案只需RC505MKII、AbletonLive、数据线
-- **强可视化** 如果你有一份AbletonLive文件，那么音乐的结构一目了然
-## 1.3 项目的内容：基于技术
-- **自由控制** 基于MIDI CC 带来更多控制
-- **无限音色** 基于SUB->INST接口扩展将四个效果扩展到八个音色带来 无限音色设计
-- **自动控制** 基于MIDI NOTE 实现音符输入，基于AbletonLIve实现工程自动化运行
+- [x] Initialize project structure ✅ 2024‑11‑07  
+- [x] Enable wireless patches ✅ 2024‑11‑09  
+- [x] Enable free control & automated control ✅ 2024‑11‑09  
+- [ ] How to manage others’ uploads  
+- [ ] English version of this project  
+- [ ] First demo video ✅ April 19, 2025  
+- [ ] First demo ✅ April 19, 2025  
 
+# 1 Project Overview
 
-# 2 为什么创建这个项目？
+## 1.1 Project Purpose: Learning‑Based
+- **10 minutes**  – Download and share your parameter information  
+- **100 minutes** – Practice your ideas on the RC505MKII  
+- **1000 minutes** – Listen to lots of music and study related theory  
 
-任何有编程经历的人都知道，直接阅读顶级程序员和权威公司的源码，或者重写他们的代码，往往能让你迅速进步。因此，直接将这个项目的所有参数复制到你的RC505MKII上，确实是让你在短时间内取得最大进步的方法。
+## 1.2 Documentation Format: Share‑Based
+- **Highly standardized** – fixed template format, including: one audio‑info file, one summary‑info file, one MIDI document  
+- **Highly extensible**  – software stack needs only RC505MKII, Ableton Live, and a data cable  
+- **Highly visual**      – with an Ableton Live project file, the musical structure is clear at a glance  
 
-然而，仅仅机械地复制别人的代码而没有明确的学习目标，将不会提升你的创造性思维。值得注意的是，我的水平也只是比你身边那位多写了一周代码的人高一点。因此，你需要遵循原则一：快速理解这个项目的参数如何运作，并用大部分时间去创造属于你的作品。
+## 1.3 Project Content: Technology‑Based
+- **Free control**      – expanded control via MIDI CC  
+- **Infinite tones**    – extend four effects to eight voices via the SUB→INST interface for unlimited tone design  
+- **Automated control** – note input via MIDI NOTE and automation via Ableton Live  
 
-# 3 细则
-接下来的原则一、二、三需要你遵循：
+# 2 Why Create This Project?
 
-## 3.1 一切的前提
+Anyone with programming experience knows that reading—or even rewriting—the source code of top programmers and authoritative companies is one of the fastest ways to level up. Copying all of this project’s parameters directly into your RC505MKII is indeed an efficient path to quick progress.
 
-你需要掌握三种基础的Beatbox音：破鼓、擦片和嘴角大鼓（注意，嘴角大鼓不是从嘴唇中间发出的大鼓音）。这并不意味着你不需要提升你的Beatbox技能，相反，你需要不断学习，以突破自己的限制，更好地把握你的创造力、来打破不可能性，创造你的原创符号。
+However, mechanically copying someone else’s work without clear learning goals will not boost your creative thinking. Note that my own skill level is only slightly above that of someone who’s written code for one extra week. Therefore, follow Principle One: quickly understand how these parameters work, and spend most of your time creating something that’s uniquely yours.
 
-## 3.2 原则一：使用方法上的3-3-3-3，一切的复制是为了你更好的原创
+# 3 Guidelines
 
-第三步的任务尤为重要：
-1. **10分钟：开箱即用** - 直接将参数.md文件中的所有操作复制到你的RC505MKII上并成功运行。将你的创作思路记录下来，并以.md格式上传到仓库。
-2. **100分钟：原创思路** - 在参数.md的基础上修改参数和效果组合，直到找到更好的组合，这是你的原创作品。
-3. **1000分钟：创造力量** - 大量聆听对应曲风的歌曲，目的性地积累乐理知识，为创作原创作品做准备。
+You must follow Principles One, Two, and Three below:
 
-## 3.3 原则二：技术分享上，以RC505MKII为中心、以Ableton Live为扩展的参数共享
+## 3.1 Prerequisites
 
-1. 首先，你需要一台RC505MKII。
-2. 其次，需配备一台电脑，用于控制和记录RC505MKII的参数。
-3. 所有硬件仅限RC505MKII，禁止使用Launchpad等MIDI控制器，以及LINE 6 STOMP等额外效果器。
+You need to master three basic beatbox sounds: the **kick drum**, the **snare/crack**, and the **lip bass** (note: lip bass is _not_ produced from the center of the lips). This isn’t to say you shouldn’t continue improving your beatbox skills—in fact, you must keep learning to push your limits, harness your creativity, and break through the impossible to forge your own original signature.
 
-|      | 硬件          | 软件              |
-| ---- | ----------- | --------------- |
-| 效果器  | 仅限RC505MKII | 不允许             |
-| MIDI | 不允许         | 仅限Ableton Live控制 |
+## 3.2 Principle One: 3‑3‑3‑3 Workflow – All Copying Aims at Better Originality
 
-这种限制是有道理的：
-1. **规范性**：统一使用RC505MKII和Ableton Live使得信息共享的方式标准化，便于每个人上传一个Ableton Live文件和一个参数.md文件，从而轻松展示自己的参数。
-2. **经济实惠**：无需购买Loopy Pro、LINE 6 STOMP或Launchpad，只需一台RC505即可实现大部分效果，并可通过下载免费的Ableton Live版本实现MIDI Note和MIDI CC的扩展。
-3. **没有任何收费**：整个GitHub/Gitee项目除了基本的网费和电费，没有其他费用。
+The third step is especially critical:
 
-## 3.4 原则三：创作习惯上，及时记录、备份你的参数
+1. **10 minutes: Plug‑and‑Play**  
+   Copy every operation from `parameters.md` into your RC505MKII and get it running. Record your initial creative ideas and upload them as a `.md` file to the repo.
 
-在2024年CNB比赛中，由于我在操作Launchpad MK3 Pro时不熟悉电脑端操作，意外将空项目覆盖了所有已有项目，最终因无法恢复备份而错失比赛机会。
+2. **100 minutes: Original Ideas**  
+   Tweak parameters and effect chains on top of `parameters.md` until you discover an improved combination—this becomes your original work.
 
-## 3.5 值得思考的问题：你/我到底想做什么样的音乐？
+3. **1000 minutes: Creative Power**  
+   Listen intensively to music in the target style. Purposefully build your music‑theory foundation to prepare for crafting truly original pieces.
 
-结论是，我们不能仅停留在欣赏音乐的层面，而是要主动参与到音乐符号体系的再生产和创作中去。
+## 3.3 Principle Two: Tech Sharing – RC505MKII‑Centric, Ableton Live‑Extended Parameter Exchange
 
-以编程为例，这就像学习算法，不仅要理解已有的代码，还要能够创造新的解决方案和程序，才能真正掌握编程的精髓。
+1. You need only an **RC505MKII**.  
+2. You also need a **computer** to control and log your RC505MKII parameters.  
+3. **Hardware is limited to the RC505MKII**. No Launchpads, extra MIDI controllers, LINE 6 STOMP units, etc., are allowed.
+
+|                | Hardware        | Software               |
+| -------------- | --------------- | ---------------------- |
+| **Effects**    | RC505MKII only  | Not allowed            |
+| **MIDI**       | Not allowed     | Controlled by Ableton Live |
+
+**Why these restrictions?**  
+1. **Standardization** – Everyone uses the same RC505MKII + Ableton Live setup, so sharing is as simple as uploading an Ableton Live file and a `parameters.md`.  
+2. **Cost‑effectiveness** – No need for Loopy Pro, LINE 6 STOMP, or Launchpad; an RC505MKII covers most effects, and the free Ableton Live trial handles MIDI Note/CC.  
+3. **Zero additional fees** – Beyond basic internet and electricity, this GitHub/Gitee project is free.
+
+## 3.4 Principle Three: Creative Habit – Record and Backup Your Parameters Promptly
+
+At the 2024 CNB competition, I wasn’t familiar with the computer‑side of my Launchpad MK3 Pro and accidentally overwrote every project with an empty one—losing my backup and missing the competition.
+
+## 3.5 Questions to Ponder: What Kind of Music Do You/We Really Want to Create?
+
+We can’t stay at the level of mere appreciation; we must actively reproduce and create within the musical symbol system. In programming terms, it’s like studying algorithms: understanding existing code isn’t enough—you must innovate new solutions and programs to truly master the craft.
